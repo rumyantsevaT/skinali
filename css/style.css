@@ -6,6 +6,47 @@
 .container {
   max-width: 1170px;
   margin: 0 auto;
-  border: 2px solid red;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url("../fonts/.eot");
+  src: url("../fonts/.eot?#iefix") format("embedded-opentype"), url("../fonts/.woff") format("woff"), url("../fonts/.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Proxima Nova Light', sans-serif;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 80px;
+}
+
+.menu-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;
+  border: none;
+  border-left: 1px solid #510bba;
+  border-right: 1px solid #510bba;
+  height: 80px;
+  width: 70px;
 }
 /*# sourceMappingURL=style.css.map */
